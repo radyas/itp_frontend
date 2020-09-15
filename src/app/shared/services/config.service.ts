@@ -15,13 +15,13 @@ export class ConfigService {
     setConfigValue() {
         this.templateConf = {
             layout: {
-                variant: 'Transparent', // options:  Dark, Light & Transparent
+                variant: 'Light', // options:  Dark, Light & Transparent
                 dir: 'ltr', // Options: ltr, rtl
                 sidebar: {
                     collapsed: false, // options: true, false
                     size: 'sidebar-md', // Options: 'sidebar-lg', 'sidebar-md', 'sidebar-sm'
                   // tslint:disable-next-line:max-line-length
-                    backgroundColor: 'pomegranate', // Options: 'black', 'pomegranate', 'king-yna', 'ibiza-sunset', 'flickr', 'purple-bliss', 'man-of-steel', 'purple-love'
+                    backgroundColor: 'man-of-steel', // Options: 'black', 'pomegranate', 'king-yna', 'ibiza-sunset', 'flickr', 'purple-bliss', 'man-of-steel', 'purple-love'
                     backgroundImage: false, // Options: true, false | Set true to show background image
                     backgroundImageURL: 'assets/img/sidebar-bg/01.jpg'
                 }
